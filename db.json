@@ -1,9 +1,616 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "products": [
+    {
+      "id": 1,
+      "brand": "jordan",
+      "name": "Jordan Retro 5",
+      "rating": 5,
+      "price": 188,
+      "discountPrice": 200,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/D0587047_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/D0587047_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/D0587047_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/D0587047_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/D0587047_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: D0587047",
+      "description": "Always stay one step ahead in the Jordan Retro 5. Featuring an easy-to-clean nubuck and full-grain leather upper, these sneakers match the unbeatable look of the 1990 classic with an updated design that will leave you craving for more. Sporting a molded and contoured ankle collar for additional comfort, the Jordan Retro 5 lets you stay ready to dip and dunk."
+    },
+    {
+      "id": 2,
+      "brand": "jordan",
+      "name": "Jordan Flightclub '91",
+      "rating": 4,
+      "price": 130,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/C7329102_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/C7329102_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/C7329102_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/C7329102_a4?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: C7329102",
+      "description": "Let your dreams take flight in the Jordan Flightclub ’91. Crafted with real and synthetic leather, these shoes ensure all-day comfort and a premium look as you hit the streets. The visible Air-Sole unit in the heel enhances cushioning and brings in incredible responsiveness, so your feet stay nice and springy 24/7. Whether you head out on a coffee run or get your workout on, the Jordan Flightclub ’91 will always be the one to choose."
+    },
+    {
+      "id": 3,
+      "brand": "jordan",
+      "name": "Jordan AJ 1 Mid",
+      "rating": 5,
+      "price": 125,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/Q8426060_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/Q8426060_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/Q8426060_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/Q8426060_a4?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: Q8426060",
+      "description": "The Men’s Air Jordan 1 Mid is the mid-top edition of the iconic Air Jordan 1 silhouette. Michael Jordan’s first signature shoe from 1985 was remodeled in this form in the early 2000s as an alternative for those who love the look of the famous sneaker but prefer a slightly lower height. The Air Jordan 1 Mid simply replicates the classic look of the Air Jordan 1 High with a lower collar height. The model is traditionally constructed in full-grain leather, with select styles featuring other materials including suede, nubuck, synthetic leather, and textiles. All of the details you know and love from the original AJ1 design are present, including the classic “Wings” Air Jordan logo, side Swooshes, and low-profile rubber cupsole. The Air Jordan 1 Mid releases in its own colorway options that often complement the high-top’s styles, as well as other Air Jordan retro models from time to time."
+    },
+    {
+      "id": 4,
+      "brand": "jordan",
+      "name": "Jordan Retro 9 NRG Boots",
+      "rating": 5,
+      "price": 225,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/R4491025_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/R4491025_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/R4491025_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/R4491025_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/R4491025_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: Q8426060",
+      "description": "The Men’s Air Jordan 1 Mid is the mid-top edition of the iconic Air Jordan 1 silhouette. Michael Jordan’s first signature shoe from 1985 was remodeled in this form in the early 2000s as an alternative for those who love the look of the famous sneaker but prefer a slightly lower height. The Air Jordan 1 Mid simply replicates the classic look of the Air Jordan 1 High with a lower collar height. The model is traditionally constructed in full-grain leather, with select styles featuring other materials including suede, nubuck, synthetic leather, and textiles. All of the details you know and love from the original AJ1 design are present, including the classic “Wings” Air Jordan logo, side Swooshes, and low-profile rubber cupsole. The Air Jordan 1 Mid releases in its own colorway options that often complement the high-top’s styles, as well as other Air Jordan retro models from time to time."
+    },
+    {
+      "id": 5,
+      "brand": "jordan",
+      "name": "Jordan Dub Zero",
+      "rating": 5,
+      "price": 225,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/11046160_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/11046160_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/11046160_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/11046160_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/11046160_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: 11046160",
+      "description": "The Air Jordan Dub Zero stands out with its intricately detailed, laser-etched upper. Air-Sole units provide impact protection, while its hidden lacing system and foam-backed collar lock down a performance fit."
+    },
+    {
+      "id": 6,
+      "brand": "nike",
+      "name": "Nike Air Force 1 '07 LV8",
+      "rating": 5,
+      "price": 100,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/D6110100_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/D6110100_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/D6110100_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/D6110100_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/D6110100_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: D6110100",
+      "description": "“Just Do It” graphic adds motivation to the legendary Air Force 1 LV8. Leather upper delivers a premium look, and the Air-Sole unit means all-day comfort."
+    },
+    {
+      "id": 7,
+      "brand": "nike",
+      "name": "Nike Air Force 1 Boots",
+      "rating": 4,
+      "price": 130,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/418001_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/418001_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/418001_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/418001_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/418001_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: 418001",
+      "description": "Iconic style? Check. Cold-weather protection? Double-check. The Nike Air Force 1 Boot brings a wintery twist to the legendary Nike style. Originally designed as on-court performance sneakers, this timeless classic has been the buzz of the streets since its launch. Revamped for rugged outdoors, these shoes feature large rubber lugs on the outsole bringing superior traction and a sturdy feel. The durable stitched-overlays with a water-repellent finish protect you against the cold, while the Air cushioning units in the midsole deliver long-lasting comfort. Legendary style and unrivaled comfort – get the best of both worlds with the Nike Air Force 1 Boot!"
+    },
+    {
+      "id": 8,
+      "brand": "nike",
+      "name": "Nike Air Force 1 High '07",
+      "rating": 4,
+      "price": 115,
+      "discountPrice": 125,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/418001_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/418001_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/418001_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/418001_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/418001_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: C2303100",
+      "description": "Nike's iconic Air Force 1 High '07 is everything you know best: crisp overlays, bold accents, and just the right amount of flash to let you shine. The padded, high-cut collar has a classic hook-and-loop closure for heritage b-ball comfort, and perforations on the toe keep you cool. For more than 35 years it's given you comfort and durability straight out of the box. Durably stitched overlays, pristine leather, and an easy to break-in design; it's got you covered uptown and downtown."
+    },
+    {
+      "id": 9,
+      "brand": "nike",
+      "name": "Nike Air Force 1 '07",
+      "rating": 5,
+      "price": 110,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/C2302100_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/C2302100_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/C2302100_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/C2302100_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/C2302100_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: C2302100",
+      "description": "Get the fresh style and classic looks you need with the Nike Air Force 1 '07."
+    },
+    {
+      "id": 10,
+      "brand": "nike",
+      "name": "Nike Air Force 1 Mid '07 LE",
+      "rating": 5,
+      "price": 120,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/W2289001_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/W2289001_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/W2289001_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/W2289001_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/W2289001_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: W2289001",
+      "description": "Radiance lives in the Nike Air Force 1 Mid ’07 LE. This limited edition puts a fresh spin on what you know best with durably stitched overlays, bold colors, and just the right amount of flash to make you shine. Stitched overlays on the upper add heritage style, durability, and support, and Nike Air cushioning adds lightweight, all-day comfort."
+    },
+    {
+      "id": 11,
+      "brand": "vans",
+      "name": "Vans Old Skool",
+      "rating": 4,
+      "price": 70,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/0207299_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/0207299_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/0207299_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/0207299_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/0207299_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: 0207299",
+      "description": "Timeless Skate Style There’s nothing old when it comes to the Vans Old Skool, except how long this iconic skate shoe has been in style. One of the most popular models of all time from the famous California-based skateboarding and extreme sports shoe brand, the Old Skool has far surpassed its original status as a shoe designed for skateboarding to become a modern casual sneaker favorite for many. From skateboarders to fashionistas, the Vans Old Skool is loved for its clean, low-profile design, durability, and great comfort straight out of the box. The classic vulcanized Waffle sole from Vans offers excellent grip on or off the board, and a clean and simple no-nonsense style. The Old Skool is available in a wide variety of color and materials combinations, including all-canvas, all-leather, and graphic-printed options."
+    },
+    {
+      "id": 12,
+      "brand": "vans",
+      "name": "Vans Old Skool",
+      "rating": 4,
+      "price": 50,
+      "discountPrice": 70,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/A38G1RIQ_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A38G1RIQ_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A38G1RIQ_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A38G1RIQ_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A38G1RIQ_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: A38G1RIQ",
+      "description": "Timeless Skate Style There’s nothing old when it comes to the Vans Old Skool, except how long this iconic skate shoe has been in style. One of the most popular models of all time from the famous California-based skateboarding and extreme sports shoe brand, the Old Skool has far surpassed its original status as a shoe designed for skateboarding to become a modern casual sneaker favorite for many. From skateboarders to fashionistas, the Vans Old Skool is loved for its clean, low-profile design, durability, and great comfort straight out of the box. The classic vulcanized Waffle sole from Vans offers excellent grip on or off the board, and a clean and simple no-nonsense style. The Old Skool is available in a wide variety of color and materials combinations, including all-canvas, all-leather, and graphic-printed options."
+    },
+    {
+      "id": 13,
+      "brand": "vans",
+      "name": "Vans Old Skool",
+      "rating": 4,
+      "price": 70,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/A5KRSF3X_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A5KRSF3X_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A5KRSF3X_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A5KRSF3X_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A5KRSF3X_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: A5KRSF3X",
+      "description": "Timeless Skate Style There’s nothing old when it comes to the Vans Old Skool, except how long this iconic skate shoe has been in style. One of the most popular models of all time from the famous California-based skateboarding and extreme sports shoe brand, the Old Skool has far surpassed its original status as a shoe designed for skateboarding to become a modern casual sneaker favorite for many. From skateboarders to fashionistas, the Vans Old Skool is loved for its clean, low-profile design, durability, and great comfort straight out of the box. The classic vulcanized Waffle sole from Vans offers excellent grip on or off the board, and a clean and simple no-nonsense style. The Old Skool is available in a wide variety of color and materials combinations, including all-canvas, all-leather, and graphic-printed options."
+    },
+    {
+      "id": 14,
+      "brand": "vans",
+      "name": "Vans Old Skool UV Dreams",
+      "rating": 5,
+      "price": 60,
+      "discountPrice": 70,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/A5KRFB5Y_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A5KRFB5Y_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A5KRFB5Y_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A5KRFB5Y_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/A5KRFB5Y_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: A5KRFB5Y",
+      "description": "An unmistakable hallmark of the Vans brand, the Old Skool is a fashion icon. The Vans Old Skool UV Dreams bring the same classy and sleek aesthetics with a fresh spin. The suede and canvas upper offers a casual yet eccentric look, while the vulcanized midsole ensures a lightweight and durable wear."
+    },
+    {
+      "id": 15,
+      "brand": "adidas",
+      "name": "adidas Originals NMD R1.V2",
+      "rating": 5,
+      "price": 110,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/GX1399_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX1399_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX1399_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX1399_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX1399_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: GX1399",
+      "description": "Put some pep in your step with the adidas Originals NMD R1.V2. The modern silhouette teams up with retro details to create a truly stand-out look. Your new favorite sneakers are right here."
+    },
+    {
+      "id": 16,
+      "brand": "adidas",
+      "name": "adidas Originals NMD V2",
+      "rating": 5,
+      "price": 140,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/GY6477_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GY6477_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GY6477_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GY6477_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GY6477_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: GY6477",
+      "description": "Celebrate the greatest super-villain you've ever seen in classic adidas style with the adidas NMD V2 x South Park Professor Chaos. Taking design inspiration from Butters' supervillain alter ego – Professor Chaos, these eye-catching shoes boast silver foil details and sleek green tones. The textile upper delivers impeccable next-to-skin comfort, while the boost midsole returns energy with every step."
+    },
+    {
+      "id": 17,
+      "brand": "adidas",
+      "name": "adidas Originals NMD R1",
+      "rating": 5,
+      "price": 150,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/GX9524_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX9524_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX9524_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX9524_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX9524_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: GX9524",
+      "description": "Clean lines, sleek details, and futuristic tech — sound too good to be true! Redefining athletic comfort like never before, the adidas NMD R1 ticks all the boxes for running gear. Featuring an upper made with at least 50% Parley Ocean Plastic, these shoes wrap around your feet flawlessly for the lightest ride ever. The signature Boost midsole provides cushioning like adidas can while you raise the bar in training with each mile."
+    },
+    {
+      "id": 18,
+      "brand": "adidas",
+      "name": "adidas Originals NMD R1.V2",
+      "rating": 5,
+      "price": 120,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/GX6265_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX6265_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX6265_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX6265_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX6265_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: GX6265",
+      "description": "Put some pep in your step with the adidas Originals NMD R1.V2. The modern silhouette teams up with retro details to create a truly stand-out look. Your new favorite sneakers are right here."
+    },
+    {
+      "id": 19,
+      "brand": "adidas",
+      "name": "adidas Originals NMD R1 Trail",
+      "rating": 4,
+      "price": 150,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/GX2096_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX2096_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX2096_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX2096_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/GX2096_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: GX2096",
+      "description": "Here's to happy trails and happier miles. The classic NMD shoes get a trail-specific update in the adidas NMD R1 Trail. Designed for easy transitions between road and trail, these shoes feature the signature Boost midsole for pillow-like cushioning. The speed lacing system combined with a stretchy knit textile upper hugs your feet with every step and promotes natural motion."
+    },
+    {
+      "id": 20,
+      "brand": "adidas",
+      "name": "adidas Originals NMD V3 Gortex",
+      "rating": 4,
+      "price": 180,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/HP7778_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/HP7778_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/HP7778_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/HP7778_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/HP7778_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: HP7778",
+      "description": "Slide into the adidas NMD V3 Gortex to keep up with your fast-paced life. Bringing back the ‘80s classic with today's best technologies, these shoes feature a Boost midsole that adds speed to your every stride and sets you up for a cushiony ride. Powered by the waterproof and breathable GORE-TEX membrane lining, these shoes keep your feet happy and breezy even when the sidewalks are slippery. Maintain the pace of your daily grind with the adidas NMD V3 Gortex."
+    },
+    {
+      "id": 21,
+      "brand": "newbalance",
+      "name": "New Balance 574",
+      "rating": 4,
+      "price": 85,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/U574BS2_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/U574BS2_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/U574BS2_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/U574BS2_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/U574BS2_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: U574BS2",
+      "description": "The legendary icon continues to reign as the classic shoe of choice. The 574's flagship status anchors New Balance's strong belief that grey is beautiful."
+    },
+    {
+      "id": 22,
+      "brand": "newbalance",
+      "name": "New Balance 5740 V1",
+      "rating": 4,
+      "price": 60,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/M5740TOK_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/M5740TOK_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/M5740TOK_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/M5740TOK_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/M5740TOK_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: M5740TOK",
+      "description": "Bridging the gap between two decades of sneaker fashion, the New Balance 5740 V1 is iconic in every way. These shoes seamlessly combine ‘90s tech-inspired details with distinctive wavy embellishments of the ‘80s to create a silhouette for the ages. The leather upper brings the classic New Balance aesthetic, while the stacked midsole creates intrigue with style and comfort. Take a step into a new dimension of sneaker style in the New Balance 5740 V1."
+    },
+    {
+      "id": 23,
+      "brand": "newbalance",
+      "name": "New Balance CT 574",
+      "rating": 4,
+      "price": 85,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/CT574WCP_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/CT574WCP_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/CT574WCP_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/CT574WCP_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/CT574WCP_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: CT574WCP",
+      "description": "Clean, simple, timeless. Make casual look classic in the New Balance CT 574. Renowned and celebrated for decades, these shoes pack everything you love about New Balance with a modern twist. The REVlite midsole cushions each step, while the durable rubber outsole lets you stomp around with reliable traction. Flaunting distinctive New Balance cutlines and unpretentious versatility, the New Balance CT 574 feels iconic through and through."
+    },
+    {
+      "id": 24,
+      "brand": "puma",
+      "name": "PUMA RS-X Pikachu",
+      "rating": 5,
+      "price": 120,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/38954101_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38954101_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38954101_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38954101_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38954101_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: 38954101",
+      "description": "Run wild with the PUMA RS-X Pikachu. PUMA and Pokémon’s exciting collaboration brings you the performance-driven shoes that keep you energized throughout the day. Using the iconic Pokémon DNA, this collection has been crafted in four unique styles inspired by their appearances in the game. Updated with bespoke designs, these shoes are for the next generation of fans who are ready to rule the court in style. Re-imagine your game and remain unstoppable in the PUMA RS-X Pikachu."
+    },
+    {
+      "id": 25,
+      "brand": "puma",
+      "name": "PUMA RS-X",
+      "rating": 5,
+      "price": 120,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/38630801_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38630801_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38630801_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38630801_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38630801_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: 38630801",
+      "description": "If you find the style of the ’80s a win, then these PUMA RS-X kicks are the shoes for you. With a unique and eye-catching design, these PUMA sneakers are a must-have for any discerning wardrobe. The retro silhouette, along with the bold choice of colors and material combinations make these shoes the incredibly unique throwback that they are. Whether you rock ’the retro style every day, or you simply want a pair of shoes that won’t be mistaken for anything less than extreme style, these PUMAs are for you."
+    },
+    {
+      "id": 26,
+      "brand": "puma",
+      "name": "PUMA RS-X Global Futurism",
+      "rating": 5,
+      "price": 90,
+      "discountPrice": 0,
+      "categoryId": 1,
+      "imageUrl": [
+        "https://images.footlocker.com/is/image/EBFL2/38517801_a1?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38517801_a2?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38517801_a3?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38517801_a4?wid=520&hei=520&fmt=png-alpha",
+        "https://images.footlocker.com/is/image/EBFL2/38517801_a5?wid=520&hei=520&fmt=png-alpha"
+      ],
+      "code": "Product #: 38517801",
+      "description": "Performance-packed futuristic sneakers! The RS-X family stands for Re-imagination, and the PUMA RS-X Global Futurism does just that by mixing future and tradition in a bold, striking design. Featuring tumble quarter leather upper with a new embroidered formstripe pattern, these sneakers bring a fresh twist to your look. The colorblocked midsole and stunning nubuck deboss pattern on the overlays are sure to catch everyone’s attention. Get ahead of time with the PUMA RS-X Global Futurism."
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "name": "ADMIN",
+      "content": " mi.",
+      "date": "1678790678896",
+      "rating": 5,
+      "productId": 1
+    },
+    {
+      "id": 6,
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "name": "ADMIN",
+      "content": "Lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi.",
+      "date": "1678790678896",
+      "rating": 5,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "name": "ADMIN",
+      "content": "Lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi.",
+      "date": "1678790678896",
+      "rating": 5,
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "name": "ADMIN",
+      "content": "Lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi.",
+      "date": "1678790678896",
+      "rating": 5,
+      "productId": 3
+    },
+    {
+      "id": 4,
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "name": "ADMIN",
+      "content": "Lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi.",
+      "date": "1678790678896",
+      "rating": 5,
+      "productId": 4
+    },
+    {
+      "id": 160,
+      "productId": "1",
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "rating": 5,
+      "date": 1678791640105,
+      "content": "Good!!!",
+      "name": "Khang",
+      "email": "nguyentruongkhang.1509@gmail.com",
+      "createdAt": 1678791640157,
+      "updatedAt": 1678791640157
+    },
+    {
+      "id": 2917,
+      "productId": "10",
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "rating": 5,
+      "date": 1678792361107,
+      "content": "Cool",
+      "name": "User 1",
+      "email": "nguyentruongkhang.1509@gmail.com",
+      "createdAt": 1678792361118,
+      "updatedAt": 1678792361118
+    },
+    {
+      "id": 2011,
+      "productId": "12",
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "rating": 5,
+      "date": 1678793086424,
+      "content": "Cool",
+      "name": "Khang",
+      "email": "nguyentruongkhang.1509@gmail.com",
+      "createdAt": 1678793086472,
+      "updatedAt": 1678793086472
+    },
+    {
+      "id": 8396,
+      "productId": "12",
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "rating": 5,
+      "date": 1678793218894,
+      "content": "Good",
+      "name": "User 2",
+      "email": "nguyentruongkhang.1509@gmail.com",
+      "createdAt": 1678793218927,
+      "updatedAt": 1678793218927
+    },
+    {
+      "id": 6060,
+      "productId": "6",
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "rating": 5,
+      "date": 1678793286964,
+      "content": "Ok",
+      "name": "User 5",
+      "email": "nguyentruongkhang.1509@gmail.com",
+      "createdAt": 1678793286992,
+      "updatedAt": 1678793286992
+    },
+    {
+      "id": 7504,
+      "productId": "24",
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "rating": 5,
+      "date": 1678793751447,
+      "content": "So cute!!!",
+      "name": "User 9",
+      "email": "nguyentruongkhang.1509@gmail.com",
+      "createdAt": 1678793751459,
+      "updatedAt": 1678793751459
+    },
+    {
+      "id": 5948,
+      "productId": "23",
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "rating": 5,
+      "date": 1678899918601,
+      "content": "Good",
+      "name": "Khang",
+      "email": "nguyentruongkhang.1509@gmail.com",
+      "createdAt": 1678899918643,
+      "updatedAt": 1678899918643
+    },
+    {
+      "id": 5948,
+      "productId": "23",
+      "avatar": "https://demo.roadthemes.com/james/wp-content/uploads/2016/01/admin_avatar_1453715255-60x60.png",
+      "rating": 5,
+      "date": 1678899918601,
+      "content": "Good",
+      "name": "Khang",
+      "email": "nguyentruongkhang.1509@gmail.com",
+      "createdAt": 1678899918643,
+      "updatedAt": 1678899918643
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
 }
