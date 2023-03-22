@@ -613,6 +613,7 @@
   "blogs": [
     {
       "id": 1,
+      "title": "ETIAM MAGNA",
       "thumbnail": "https://demo.roadthemes.com/james/wp-content/uploads/2015/11/4.jpg",
       "author": "ADMIN",
       "content": [
@@ -626,6 +627,7 @@
     },
     {
       "id": 2,
+      "title": "PRAESENT IMPERDIET",
       "thumbnail": "https://demo.roadthemes.com/james/wp-content/uploads/2015/11/2.jpg",
       "author": "ADMIN",
       "content": [
@@ -639,6 +641,7 @@
     },
     {
       "id": 3,
+      "title": "QUISQUE EGESTAS",
       "thumbnail": "https://demo.roadthemes.com/james/wp-content/uploads/2015/11/6.jpg",
       "author": "ADMIN",
       "content": [
@@ -652,6 +655,7 @@
     },
     {
       "id": 4,
+      "title": "PRAESENT IMPERDIET",
       "thumbnail": "https://demo.roadthemes.com/james/wp-content/uploads/2015/11/7.jpg",
       "author": "ADMIN",
       "content": [
